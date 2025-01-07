@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #board{
+            width: 256px;
+            height:256px;
+            /* border: 2px solid black; */
+            /* max-width: 256px;
+            max-height: 256px; */
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+    </style>
 </head>
 <body>
+    <h1>Etch-A-Sketch <button id="start">start</button>
+    </h1>
+    <div id="board"></div>
     <script src="javascript.js"></script>
 </body>
 </html>
